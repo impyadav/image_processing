@@ -11,6 +11,7 @@ img =  cv2.imread('flowers.jpg' )
 
 kernel = np.ones((3,3) , np.uint8)
 
+
 erosion  = cv2.erode(img , kernel , iterations = 1)
 
 dilation = cv2.dilate(img , kernel , iterations = 1)
